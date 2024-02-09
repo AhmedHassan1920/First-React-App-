@@ -1,0 +1,11 @@
+.active{
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in;
+}
+
+.navBar{
+    background-color:var(--second-color);
+}

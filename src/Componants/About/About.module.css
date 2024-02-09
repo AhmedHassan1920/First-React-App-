@@ -1,0 +1,25 @@
+.starContainer{
+    position: relative;
+    width: 25%;
+}
+
+.starContainer::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    z-index: 99;
+}
+.starContainer::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    z-index: 99;
+}

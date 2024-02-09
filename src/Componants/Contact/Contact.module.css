@@ -1,0 +1,42 @@
+.starContainer{
+    position: relative;
+    width: 25%;
+}
+
+.starContainer::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    z-index: 99;
+}
+.starContainer::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    width: 30%;
+    height: 3px;
+    background-color: white;
+    z-index: 99;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+input:focus{
+    outline: none;
+}
+
+.sendMsgBtn{
+    background-color: var(--second-color);
+    color: white;
+    padding: 8px 20px;
+    border: 0; 
+    border-radius: 5px;
+}
